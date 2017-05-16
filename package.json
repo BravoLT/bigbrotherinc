@@ -1,0 +1,17 @@
+{
+  "name": "mood",
+  "version": "1.0.0",
+  "description": "mood",
+  "main": "index.js",
+  "dependencies": {
+    "@google-cloud/language": "^0.10.3",
+    "log": "^1.4.0",
+    "sleep": "^5.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dustin Clifford",
+  "license": "MIT"
+}
