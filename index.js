@@ -1,10 +1,5 @@
 /*jshint esversion: 6*/
 exports.mood = function(req, rsp) {
-  var validationToken = '2J2arrqqs3pK8fcb53WVXocM';
-
-  if(req.body.token == validationToken) {
-    rsp.status(403);
-  }
 
   switch(req.method) {
       case 'POST':
